@@ -14,7 +14,7 @@ export default function BirthdayForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const formattedDate = format(new Date(birthdate), "dd-MMM");
+    const formattedDate = format(new Date(birthdate), "dd-MM-yyyy");
     router.push(`/${name}/${formattedDate}`);
   };
 
