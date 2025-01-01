@@ -1,4 +1,4 @@
-import BirthdayForm from '@/components/BirthdayForm'
+import BirthdayForm from "@/components/BirthdayForm";
 
 export default function Home() {
   return (
@@ -6,6 +6,5 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-8">Birthday Wisher</h1>
       <BirthdayForm />
     </main>
-  )
+  );
 }
-
