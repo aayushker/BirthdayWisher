@@ -45,9 +45,9 @@ export default function BirthdayCelebration({ name }: { name: string }) {
       <p className="text-4xl">Wishing you a fantastic birthday, {name}!</p>
       <p className="text-2xl mt-4">May all your dreams come true!</p>
       <div className="balloons">
-        <img src="/balloon1.svg" alt="Balloon 1" className="balloon balloon1" />
-        <img src="/balloon2.svg" alt="Balloon 2" className="balloon balloon2" />
-        <img src="/balloon3.svg" alt="Balloon 3" className="balloon balloon3" />
+        <img src="/ballon1.svg" alt="Balloon 1" className="balloon balloon1" />
+        <img src="/ballon2.svg" alt="Balloon 2" className="balloon balloon2" />
+        <img src="/ballon3.svg" alt="Balloon 3" className="balloon balloon3" />
       </div>
     </div>
   );
